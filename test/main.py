@@ -13,4 +13,4 @@ if __name__ == '__main__':
         parsed = parse_json(read_json_file(key))    # read & parse .json files
         write_ready.append(parsed)
 
-    write_file(write_ready)                         # write parsed values to excle file
+    write_file(write_ready)                         # write parsed values to excel file
